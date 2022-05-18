@@ -1,4 +1,5 @@
 const convert = require('./Answers/convert1.js');
+const displayUserDetails = require('./Answers/Debug.js');
 const numberToEnglish = require('./Answers/NumberToEnglish.js');
 const secondLargest = require('./Answers/SecondLarget.js');
 
@@ -10,3 +11,6 @@ console.log(secondLargest([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
 // Number to English
 console.log(numberToEnglish(1050));
+
+// Debug
+console.log(displayUserDetails);

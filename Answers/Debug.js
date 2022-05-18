@@ -21,7 +21,8 @@ const User = function(name, gender, age){
  for(let i = 0; i < users.length; i++){
     console.log('>'+ i + 1 +'< ' + users[i].name + ' is a ' + users[i].age + ' old ' + users[i].gender);
  }
+}
+console.log(displayUserDetails(users));
+
+ module.exports = displayUserDetails
  
- }
- 
- displayUserDetails(users);

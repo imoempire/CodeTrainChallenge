@@ -1,0 +1,14 @@
+{
+  "name": "Data",
+  "version": "1.0.0",
+  "description": "Learn Data",
+  "main": "index.js",
+  "author": "Isaac",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
